@@ -1,8 +1,7 @@
 ## Hacktoberfest-2k18
 
-Official repository for Hacktoberfest-2k18 maintained by ZAIRZA-CET.
-
-###About Hacktoberfest
+Official repository for Hacktoberfest-2k18 maintained by ZAIRZA-CET.  
+##About Hacktoberfest
 
 Hacktoberfest is a month-long celebration of open source.
 
