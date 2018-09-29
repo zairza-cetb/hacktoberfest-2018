@@ -1,13 +1,15 @@
-## Contribution
- * Contributions are always welcome. Language doesn't matter. Just make sure you're implementing an algorithm.
- * PRs are welcome. To begin developing, follow the structure:
+# CONTRIBUTING to this repository
 
-   > algorithm_name/language-name/file_name.extension
+* The repository aims to help people to get started with making pull requests.
 
-   e.g
-   > bubble_sort/python/bubble_sort.py
+## Forking the repository
 
- * If you want to include a new algorithm make a new folder as per the above structure.
- * Please include a description for the new algorithm that you are implementing. It doesn't matter if it's copied from somewhere as long as it helps people that are learning new algorithm.
- * Graphical examples would be very helpful too.
- * Beautify and cleanup your code for easier reading
+## Cloning 
+
+## Choosing an issue to work upon
+
+## Making changes to the codebase
+
+## Add, Commit and Push 
+
+## Opening a pull request
