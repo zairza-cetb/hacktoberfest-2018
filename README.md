@@ -1,4 +1,4 @@
-## Hacktoberfest-2k18
+## Hacktoberfest 2018
 
 Hacktoberfest is a month-long celebration of open source.
 Hacktoberfest is open to everyone who wants to get started with open sourcing!
