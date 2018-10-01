@@ -28,7 +28,6 @@ function binarySearch(array, key) {
 }
 
 sampleArray = [1, 2, 3, 4, 5, 6];
-
 sampleKey = 2;
 
 console.log(binarySearch(sampleArray, sampleKey));
