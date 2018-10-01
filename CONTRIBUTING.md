@@ -17,16 +17,21 @@ Cloning is used to create a local copy of the repository. It takes only one comm
 
 ## Choosing an issue to work upon
 
-* Go to the [issues section](https://github.com/zairza-cetb/hacktoberfest-2018/issues), to find a list of open issues. 
-<br>
-<br>
+Go to the [issues section](https://github.com/zairza-cetb/hacktoberfest-2018/issues), to find a list of open issues. 
+<br/>
+
+
 ![](./markdown_images/issue_list.png)
+
 
 * Select the issues you are interested to work upon based upon the labels and descriptions.
 * You need to claim the issue to let others know you're working upon it. 
+
 <br/>
-<br/>
+
+
 ![](./markdown_images/issue-claim-2.png)
+
 
 
 ## Making changes to the codebase
