@@ -9,7 +9,11 @@ In this section, users are invited to create their portfolio with static webpage
 ### Sample 
 
 An example of portfolio 
-![](../markdown_images/portfolio_directory_structure.png)
+<br>
+
+![](../markdown_images/)
 
 Recommended Directory structure
+<br>
+
 ![](../markdown_images/portfolio_directory_structure.png)
