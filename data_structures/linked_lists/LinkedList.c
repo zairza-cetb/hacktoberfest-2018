@@ -1,4 +1,4 @@
-/* Linked LIst implementation in C
+/* Linked List implementation in C
  * Author : Manvi Gupta
  */
 
