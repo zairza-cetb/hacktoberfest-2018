@@ -33,7 +33,7 @@ int lcs(string s1, string s2){
   }
   return lpsH(s1, 0, s1.length()-1, output);
 }
-int main{
+int main(){
 	string s1, s2;
 	cin >> s1 >> s2;
 	cout << lcs(s1, s2);
