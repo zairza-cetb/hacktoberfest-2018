@@ -1,24 +1,16 @@
-def bubbleSort(arr): 
-    n = len(arr) 
+def shortBubbleSort(alist):
+    exchanges = True
+    passnum = len(alist)-1
+    while passnum > 0 and exchanges:
+       exchanges = False
+       for i in range(passnum):
+           if alist[i]>alist[i+1]:
+               exchanges = True
+               temp = alist[i]
+               alist[i] = alist[i+1]
+               alist[i+1] = temp
+       passnum = passnum-1
 
-    # Traverse through all array elements 
-    for i in range(n): 
-
-    # Last i elements are already in place 
-        for j in range(0, n-i-1): 
-
-    # traverse the array from 0 to n-i-1 
-    # Swap if the element found is greater 
-    # than the next element 
-            if arr[j] > arr[j+1] : 
-                arr[j], arr[j+1] = arr[j+1], arr[j] 
-
-# Driver code to test above 
-arr = [64, 34, 25, 12, 22, 11, 90] 
-
-bubbleSort(arr) 
-
-print ("Sorted array is:") 
-for i in range(len(arr)): 
-    #Prints the output in single
-    print ("%d" %arr[i], end=" ")  
+alist=[20,30,40,90,50,60,70,80,100,110]
+shortBubbleSort(alist)
+print(alist)
