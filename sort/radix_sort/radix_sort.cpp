@@ -40,7 +40,8 @@ void countSort(int arr[], int n, int exp)
         arr[i] = output[i]; 
 } 
   
-// The main function for sorting by Radix Sort
+// The main function to that sorts arr[] of size n using  
+// Radix Sort 
 void radixsort(int arr[], int n) 
 { 
     // Find the maximum number to know number of digits 
@@ -59,13 +60,13 @@ void print(int arr[], int n)
     for (int i = 0; i < n; i++) 
         cout << arr[i] << " "; 
 } 
-
+  
+// Driver program to test above functions 
 int main() 
 { 
-    // Driver program to test above functions 
     int arr[] = {170, 45, 75, 90, 802, 24, 2, 66}; 
-    int n = sizeof(arr)/sizeof(arr[0]);
+    int n = sizeof(arr)/sizeof(arr[0]); 
     radixsort(arr, n); 
     print(arr, n); 
     return 0; 
-}
+} 
