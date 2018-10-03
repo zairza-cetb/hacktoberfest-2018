@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: black; 
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.container h1 {
+    background: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.quem-sou {
+    padding-top: 100px;
+}
+
+.quem-sou h1 {
+    padding-bottom: 50px;
+}
+
+.foto-perfil {
+  padding-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-quem-sou {
+    border: 1px solid #fff;
+    padding: 30px 10px 20px 10px;
+}
+
+.projetos {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.projetos h1 {
+    padding-bottom: 50px;
+}
+
+
+.card-projeto {
+    padding-top: 20px;
+}
+
+.card-projeto h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+/*Footer*/
+footer{
+    padding: 20px 0px 20px 0px;
+    background-color: #1e272e;
+    width: 100%;
+    min-width: 100%;
+    
+}
+
+.logos-footer {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+
+/* Botões */
+.button-primary {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #2a2a72;
+    transition: background 0.6s;
+    color: #fff;
+}
+
+.button-primary:hover {
+    background: #2e86de;
+    text-decoration: none;
+    color: #fff;
+}
