@@ -1,0 +1,44 @@
+/*
+The functions associated with stack are:
+empty() – Returns whether the stack is empty – Time Complexity : O(1)
+size() – Returns the size of the stack – Time Complexity : O(1)
+top() – Returns a reference to the top most element of the stack – Time Complexity : O(1)
+push(g) – Adds the element ‘g’ at the top of the stack – Time Complexity : O(1)
+pop() – Deletes the top most element of the stack – Time Complexity : O(1)
+CPP program to demonstrate working of STL stack used in competitive programming.*/
+
+#include<bits/stdc++.h>
+using namespace std; 
+  
+void showstack(stack <int> s) 
+{ 
+    while (!s.empty()) 
+    { 
+        cout << '\t' << s.top(); 
+        s.pop(); 
+    } 
+    cout << '\n'; 
+} 
+  
+int main () 
+{ 
+    stack <int> s; // Creating a stac by STL. Here making stack of integers, can change by specifying <datatype> as float, string etc..
+    s.push(10); //INSERTING ELEMENTS
+    s.push(30); 
+    s.push(20); 
+    s.push(5); 
+    s.push(1); 
+  
+    cout << "The stack is : "; 
+    showstack(s); 
+  
+    cout << "\ns.size() : " << s.size(); //Size of the stack    
+    cout << "\ns.top() : " << s.top(); //Returns the top element.
+  
+  
+    cout << "\ns.pop() : "; 
+    s.pop(); //Removing the top element from stack.
+    showstack(s); 
+  
+    return 0; 
+} 
