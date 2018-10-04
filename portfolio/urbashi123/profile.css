@@ -1,0 +1,45 @@
+body{
+	background-color: rgba(66, 78, 244,0.4);
+	text-align: center;
+}
+.img1{
+	width: 200px;
+	height: 250px;
+	vertical-align: middle;
+	margin-top: 50px;
+	border-radius: 100px;
+	
+	
+}
+.img1:hover{
+	opacity:1.0;
+}	
+.img2,.img3{
+	margin: 20px 20px 0 0;
+	width: 80px;
+	height: 80px;
+}
+#info{
+	color: white;
+	font-size: 25px;
+}
+.i1,.i2,.i3{
+	line-height: 120%;
+}
+@media screen and (max-width: 500px) 
+{
+	.img1
+	{
+		width:150px;
+		height: 200px; 
+	}
+	#info
+	{
+		font-size: 18px;
+	}
+	.img2,.img3
+	{
+		width: 50px;
+		height: 50px;
+	}
+}
