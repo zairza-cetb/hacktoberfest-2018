@@ -1,0 +1,101 @@
+*{
+    margin : none;
+    padding : none;
+}
+
+body{
+    text-align : center;
+    min-width: 360px;
+    
+    margin: 0;
+}
+
+#header, #showcase, #footer, #social{
+
+    background : #f44274;;
+    animation-name: bgColor;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 2s;
+    color : white;
+    font-family : "Comfortaa", cursive;
+    margin : auto;
+
+}
+
+@keyframes bgColor {
+    0%   {background-color: #f44274;}
+    25%  {background-color: #f4f142;}
+    50%  {background-color: #42b6f4;}
+    100% {background-color: #42f49e;}
+}
+
+img{
+    margin : 50px 0 30px 0;
+    border : 5px solid white;
+    border-radius : 100px;
+    box-shadow : 2px 2px 10px #888;
+    vertical-align: middle;
+    width:230px; 
+    height: 250px;
+}
+
+.name{
+    font-size : 30px;
+    text-shadow : 2px 2px 10px #888;
+    
+}
+
+#tags{
+    font-size : 20px;
+}
+
+.icons i{
+    margin : 15px;
+    border-radius : 100%;
+    font-size : 50px;
+    
+}
+
+.icons a:hover i{
+    box-shadow : 2px 2px 10px #888;
+    
+}
+
+.fa-facebook{
+    width : 45px;
+}
+
+
+
+/*
+    For reaponsiveness across all the devices using @media queries.
+*/
+@media screen and (max-width: 500px) {
+   
+   .icons i{
+        font-size : 30px;
+    }
+
+    .name{
+        font-size : 20px;
+    }
+
+
+    #tags{
+        font-size : 15px;
+    }
+
+    .fa-facebook{
+        width : 26px;
+    }
+    img {
+        width:180px; 
+        height: 200px;
+    }
+    body{
+        margin: 0;
+    }
+
+}

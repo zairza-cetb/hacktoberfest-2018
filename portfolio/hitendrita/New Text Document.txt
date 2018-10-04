@@ -1,0 +1,44 @@
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel = "stylesheet" href = "css/main.css" type = "text/css">
+        <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Comfortaa|Lobster|Righteous" rel="stylesheet">
+    
+    </head>
+    <body>
+        
+            
+            
+
+            <div class = "section" id = "header">
+                
+                <img src = "Dp.jpg"
+                  alt="My image">
+                
+                <div class = "name">Hitendrita Panda</div>
+                <div id = "tags"><br>Computer Science Undergraduate<br><br><i style = "color : black" class = "fa  fa-graduation-cap" aria-hidden = "true"></i> College of Engineering and Technology, Bhubaneswar<br><br>
+                
+                </div>
+                <br><br><br>
+            </div>
+            
+            <div class = "section" id = "social"><div class = "name">Contact Me</div>
+
+            <div class = "icons">
+                <a target = "_blank" href = "https://www.facebook.com/hitendrita.panda"><i style = "color : #3b5998;" class = "fa fa-border fa-facebook" aria-hidden = "true"></i></a>
+                
+                <a target = "_blank" href = "https://www.github.com/hitendrita"><i style = "color : black" class = "fa  fa-border    fa-github" aria-hidden = "true"></i></a>
+                <a target = "_blank" href = "https://www.linkedin.com/in/hitendrita-panda-08249616b/"><i style = "color : #0077B5" class = "fa  fa-border    fa-linkedin" aria-hidden = "true"></i></a>
+             </div>   
+             
+            </div>
+            <!--<div class = "section" id = "social"></div>
+            <div class = "section" id = "footer"></div>-->
+
+        
+        
+    </body>
+</html>
