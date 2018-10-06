@@ -1,25 +1,26 @@
-insertionSort <- function(arr) {
+#Straight Insertion Sort
+
+sort.sis <- function(x,z)
+{
+  if(!is.vector(x)) {stop("Parameter must be a vector")}
+  if(!is.numeric(x)) {stop("Parameter must be a numeric")}
+  if(!is.numeric(z)) {stop("Parameter must be a numeric")}
+  n = length(x)
+  y = numeric(n+1)
   
-  for (j in 2:length(arr)) {
-    x = arr[j] 
-    i = j - 1 
-    while (i > 0 && arr[i] >x) {
-      arr[(i + 1)] = arr[i]
-      i = i - 1 
+  for (i in 1:n)
+  {
+    j = i
+    while (x[j] <= z)
+    {
+      y <<- append(x,z, after = j)
+      j = j + 1
     }
-    arr[(i + 1)] = x
-  }
-  assign("arr",arr,envir = parent.frame())          
-  
+  } 
 }
 
-main <- function() {
-  
-  prompt <- "Enter numbers to be sorted "
-  arr <- as.integer(strsplit(readline(prompt), " ")[[1]])
-  insertionSort(arr)
-  print(" Array in sorted order : ")
-  print(arr)
-}
-
-main()
+#Test
+x = seq(1:10)
+z = 4
+sort.sis(x,z)
+y
