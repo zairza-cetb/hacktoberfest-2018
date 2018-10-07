@@ -1,0 +1,32 @@
+#!/bin/bash
+
+: '
+    How to send run this command:
+        1) move to the directory that has this file
+        2) run ./insertion_sort 4 8 9 10 99 33
+        3) the output should be: 
+
+            The Sorted Array Is:
+            4 8 9 10 33 99
+    
+    This command only with numbers currently.  It will accept
+    other input, just it will not sort it.
+'
+
+# Read in the input Array
+inputArray=("$@")
+
+# Do the insertion sort
+for(( i=1; i<${#inputArray[@]}; i++)); do
+    j=$i-1
+    temp=${inputArray[$i]}
+    while((j>=0 && inputArray[j]>temp)); do
+        inputArray[$j+1]=${inputArray[$j]}
+        j=$j-1
+    done
+    inputArray[j+1]=$temp
+done
+
+#######   PRINT THE SORTED ARRAY   #######
+echo "The Sorted Array Is:"
+echo ${inputArray[@]}
