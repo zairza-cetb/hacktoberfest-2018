@@ -20,15 +20,14 @@ void print(int i,int j)
 }
  
 void lcs()
-{
-                m=strlen(x);
+{              m=strlen(x);
                 n=strlen(y);
                 for(i=0;i<=m;i++)
                                 c[i][0]=0;
                 for(i=0;i<=n;i++)
                                 c[0][i]=0;
                                 
-                //c, u and l denotes cross, upward and downward directions respectively
+                
                 for(i=1;i<=m;i++)
                                 for(j=1;j<=n;j++)
                                 {
