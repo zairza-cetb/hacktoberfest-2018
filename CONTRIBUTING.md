@@ -24,8 +24,8 @@ Go to the [issues section](https://github.com/zairza-cetb/hacktoberfest-2018/iss
 ![](./markdown_images/issue_list.png)
 
 
-* Select the issues you are interested to work upon based upon the labels and descriptions.
-* You need to claim the issue to let others know you're working upon it. 
+* Select the issues you are interested to work on based upon the labels and descriptions.
+* You need to claim the issue to let others know that you're working on it. 
 
 <br/>
 
