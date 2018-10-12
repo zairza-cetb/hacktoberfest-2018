@@ -40,7 +40,7 @@ void Queue<T>::push(T val)
 		back = n;
 	}
 	count++;
-	
+
 }
 
 template<class T>
@@ -67,6 +67,12 @@ void Queue<T>::clear()
 {
 	while (count != 0)
 		pop();
+}
+
+template<class T>
+bool Queue<T>::Empty()
+{
+	return (count == 0);
 }
 
 template<class T>
