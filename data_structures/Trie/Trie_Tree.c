@@ -5,9 +5,9 @@
 #include<assert.h>
 
 
-typedef struct trie_node
+typedef struct Trie_Node
 {
-    struct trie_node * arr[26] ;
+    struct Trie_Node * arr[26] ;
     bool  End ;
 } trie ;
 
