@@ -5,7 +5,7 @@
 #include<assert.h>
 
 
-typedef struct Trie_Node
+typedef struct TrieNode
 {
     struct Trie_Node * arr[26] ;
     bool  End ;
