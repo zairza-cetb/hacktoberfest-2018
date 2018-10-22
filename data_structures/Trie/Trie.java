@@ -1,24 +1,24 @@
 import java.util.* ;
 
-class Trie_Node
+class TrieNode
 {
     boolean EndOfWord ;
-    Map<Character, Trie_Node> m ;
-    Trie_Node()
+    Map<Character, TrieNode> m ;
+    TrieNode()
     {
-        m = new HashMap<Character, Trie_Node>() ;
+        m = new HashMap<Character, TrieNode>() ;
     }
 }
 class Trie
 {
-    public static Trie_Node newNode()
+    public static TrieNode newNode()
     {
-        Trie_Node t = new Trie_Node() ;
+        TrieNode t = new TrieNode() ;
         t.EndOfWord = false ;
         return t ;
     }
 
-    public static void insert(Trie_Node root, String s)
+    public static void insert(TrieNode root, String s)
     {
         for(int i = 0; i < s.length(); i++)
         {
@@ -31,7 +31,7 @@ class Trie
         root.EndOfWord = true;
     }
 
-    public static int search(Trie_Node root, String s)
+    public static int search(TrieNode root, String s)
     {
         for(int i = 0; i < s.length(); i++)
         {
@@ -54,7 +54,7 @@ class Trie
         s[0] = "Hello" ;
         s[1] = "Heel" ;
         s[2] = "Mask" ;
-        Trie_Node root = new Trie_Node() ;
+        TrieNode root = new TrieNode() ;
         for(int i = 0; i < s.length; i++)
         {
             insert(root, s[i]) ;
