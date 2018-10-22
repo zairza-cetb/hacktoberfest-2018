@@ -61,7 +61,7 @@ class Trie
         }
         assert(search(root, "Hello") == 1) ;
         assert(search(root, "Heel") == 1) ;
-        assert(search(root, "Avc") == 0) ;
+        assert(search(root, "Abc") == 0) ;
         System.out.println("All test cases passed") ;
     }
 }
